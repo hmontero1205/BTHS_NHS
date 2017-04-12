@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<!--Hans Montero-->
+<html>
+	<head>
+		<title>JavaScript</title>
+		<style>
+			pre{
+				margin:0px;
+				font-family: arial;
+				font-size:20pt;
+				white-space: pre-wrap;
+			}
+			textarea{
+				max-width:400px;
+				max-height:100px;
+			}
+			div{
+				display: inline-block;
+				width:60%;
+				word-wrap: break-word; 
+			}
+		</style>
+		<script>
+			function initialize()
+			{
+				thisTest = document.getElementById("mytest");
+				aBox = document.getElementById("box");
+			}
+			
+			function myFunction()
+			{
+				someText = thisTest.value;
+				console.log(thisTest.innerHTML);
+				aBox.innerHTML = "<pre>"+someText+"</pre>";
+
+			}
+		</script>
+	</head>
+	<body onload="initialize();">
+		<textarea cols="20" wrap="hard" id="mytest"></textarea>
+		<button onclick="myFunction();">Woo</button><br/>
+		<div id="box"></div>
+
+</html>
