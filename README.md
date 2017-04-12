@@ -1,5 +1,5 @@
 # Brooklyn Technical HS National Honor Society
 
-bthsnhs.mx.x10<br/>
+<a href="bthsnhs.mx.x10">bthsnhs.mx.x10</a><br/>
 Website that I made for my high school's National Honor Society chapter. <br/>
-Features include: Google Calendar, announcement boards, and member tracking.
+Features include: Google Calendar support, announcement boards, and member tracking.
